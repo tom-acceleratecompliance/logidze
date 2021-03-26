@@ -26,7 +26,15 @@ Gem::Specification.new do |spec|
     "source_code_uri" => "http://github.com/palkan/logidze"
   }
 
-  spec.add_dependency "rails", ">= 5.0"
+  # spec.add_dependency "rails", ">= 5.0"
+  spec.add_dependency 'activesupport', '>= 5.0'
+  spec.add_dependency 'actionpack', '>= 5.0'
+  spec.add_dependency 'actionview', '>= 5.0'
+  spec.add_dependency 'activemodel', '>= 5.0'
+  spec.add_dependency 'activerecord', '>= 5.0'
+  spec.add_dependency 'actionmailer', '>= 5.0'
+  spec.add_dependency 'railties', '>= 5.0'
+  
   spec.add_dependency "ruby-next-core", "~> 0.9"
 
   spec.add_development_dependency "ammeter", "~> 1.1.3"
